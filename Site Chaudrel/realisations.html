@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Réalisations — Chaudrel Prestige Rénovation</title>
+  <meta name="description" content="Découvrez nos projets phares : rénovations complètes, cuisines sur mesure, salles de bain haut de gamme et aménagements d'exception." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <!-- ============= HEADER ============= -->
+  <header class="site-header scrolled" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-name">CHAUDREL</span>
+        <span class="brand-sub">Rénovation</span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="services.html">Services</a>
+        <a href="realisations.html" aria-current="page">Réalisations</a>
+        <a href="histoire.html">Notre Histoire</a>
+        <a href="avis.html">Avis Clients</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+32477273118" class="phone-link">+32 477 27 31 18</a>
+        <a href="contact.html" class="btn btn-gold">Consultation gratuite</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu mobile" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="histoire.html">Notre Histoire</a>
+      <a href="avis.html">Avis Clients</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html" class="btn btn-gold">Consultation gratuite</a>
+    </nav>
+  </header>
+
+  <!-- ============= HERO ============= -->
+  <section class="page-hero" style="background-image: linear-gradient(rgba(10,10,10,.65), rgba(10,10,10,.85)), url('images/projects/e224507ea_generated_586780d7.png');">
+    <div class="container">
+      <span class="eyebrow fade-up">Portfolio</span>
+      <h1 class="fade-up">Chaque projet, une histoire unique</h1>
+      <p class="lead fade-up">150+ demeures transformées à Bruxelles et dans le Brabant. Voici quelques-unes de nos réalisations les plus marquantes.</p>
+    </div>
+  </section>
+
+  <!-- ============= FILTRES ============= -->
+  <section style="padding: 3rem 0 0;">
+    <div class="container">
+      <div class="filters fade-up" id="projectFilters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="renovation">Rénovation complète</button>
+        <button class="filter-btn" data-filter="cuisine">Cuisine</button>
+        <button class="filter-btn" data-filter="sdb">Salle de bain</button>
+        <button class="filter-btn" data-filter="exterieur">Extérieur</button>
+        <button class="filter-btn" data-filter="toiture">Toiture</button>
+        <button class="filter-btn" data-filter="piscine">Piscine</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= GRID ============= -->
+  <section style="padding: 3rem 0 6rem;">
+    <div class="container">
+      <div class="projects-grid">
+        <a href="#" class="project-card fade-up" data-category="renovation" style="background-image:url('images/projects/6e8cd1e05_generated_9b7ef696.png');">
+          <div class="project-overlay">
+            <span class="label">Rénovation complète</span>
+            <h3>Résidence Uccle</h3>
+            <span class="meta">Uccle · 2024</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="renovation" style="background-image:url('images/projects/132aaeead_generated_ed9a98fd.png');">
+          <div class="project-overlay">
+            <span class="label">Architecture intérieure</span>
+            <h3>Villa Tervuren — Intérieur</h3>
+            <span class="meta">Tervuren · 2024</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="exterieur" style="background-image:url('images/projects/13339706c_generated_8a59c56b.png');">
+          <div class="project-overlay">
+            <span class="label">Aménagement extérieur</span>
+            <h3>Terrasse Woluwe</h3>
+            <span class="meta">Woluwe-Saint-Pierre · 2024</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="cuisine" style="background-image:url('images/projects/b1978ceec_generated_19d49911.png');">
+          <div class="project-overlay">
+            <span class="label">Cuisine sur mesure</span>
+            <h3>Cuisine Ixelles</h3>
+            <span class="meta">Ixelles · 2025</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="piscine" style="background-image:url('images/projects/935719cc0_generated_4d6b3f86.png');">
+          <div class="project-overlay">
+            <span class="label">Piscine &amp; Pool house</span>
+            <h3>Domaine Lasne</h3>
+            <span class="meta">Lasne · 2024</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="exterieur" style="background-image:url('images/projects/e224507ea_generated_586780d7.png');">
+          <div class="project-overlay">
+            <span class="label">Jardin à la française</span>
+            <h3>Manoir Waterloo</h3>
+            <span class="meta">Waterloo · 2023</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="sdb" style="background-image:url('images/projects/3640a165c_generated_d29b4ba3.png');">
+          <div class="project-overlay">
+            <span class="label">Salle de bain spa</span>
+            <h3>Suite Uccle</h3>
+            <span class="meta">Uccle · 2024</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="toiture" style="background-image:url('images/projects/c1d515f55_generated_8ea3da0c.png');">
+          <div class="project-overlay">
+            <span class="label">Toiture ardoise</span>
+            <h3>Hôtel de maître Etterbeek</h3>
+            <span class="meta">Etterbeek · 2023</span>
+          </div>
+        </a>
+        <a href="#" class="project-card fade-up" data-category="cuisine" style="background-image:url('images/projects/43d1f25a4_generated_5f718135.png');">
+          <div class="project-overlay">
+            <span class="label">Restauration façade</span>
+            <h3>Hôtel particulier Schaerbeek</h3>
+            <span class="meta">Schaerbeek · 2024</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= CTA ============= -->
+  <section class="cta-strip">
+    <div class="container cta-inner">
+      <div class="fade-up">
+        <h2>Envie de rejoindre nos clients ?</h2>
+        <p>Discutons de votre projet. Consultation gratuite.</p>
+      </div>
+      <div class="fade-up">
+        <a href="contact.html" class="btn btn-gold">Démarrer un projet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FOOTER ============= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="foot-brand">
+        <span class="brand-name">CHAUDREL</span>
+        <p>Rénovation haut de gamme pour demeures d'exception. Brussels &amp; Brabant.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <a href="services.html">Cuisine</a>
+        <a href="services.html">Salle de bain</a>
+        <a href="services.html">Jardin &amp; Extérieur</a>
+        <a href="services.html">Toiture</a>
+        <a href="services.html">Piscine</a>
+        <a href="services.html">Rénovation complète</a>
+      </div>
+      <div class="foot-col">
+        <h4>La maison</h4>
+        <a href="histoire.html">Notre histoire</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="avis.html">Avis clients</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:Info@chaudrel.be">Info@chaudrel.be</a>
+        <a href="tel:+32477273118">Alberto — +32 477 27 31 18</a>
+        <a href="tel:+32493972517">Matteo — +32 493 97 25 17</a>
+      </div>
+    </div>
+    <div class="container foot-bottom">
+      <p>© <span id="year"></span> Chaudrel Prestige Rénovation — Tous droits réservés.</p>
+      <div class="foot-legal">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

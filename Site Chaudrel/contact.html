@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Chaudrel Prestige Rénovation</title>
+  <meta name="description" content="Contactez-nous pour une consultation gratuite. Alberto, Matteo et toute l'équipe Chaudrel sont à votre écoute." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header scrolled" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-name">CHAUDREL</span>
+        <span class="brand-sub">Rénovation</span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="services.html">Services</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="histoire.html">Notre Histoire</a>
+        <a href="avis.html">Avis Clients</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+32477273118" class="phone-link">+32 477 27 31 18</a>
+        <a href="contact.html" class="btn btn-gold" aria-current="page">Consultation gratuite</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu mobile" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="histoire.html">Notre Histoire</a>
+      <a href="avis.html">Avis Clients</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html" class="btn btn-gold">Consultation gratuite</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="page-hero" style="background-image: linear-gradient(rgba(10,10,10,.65), rgba(10,10,10,.85)), url('images/projects/e224507ea_generated_586780d7.png');">
+    <div class="container">
+      <span class="eyebrow fade-up">Parlons-en</span>
+      <h1 class="fade-up">Prêt à transformer votre espace ?</h1>
+      <p class="lead fade-up">Appelez-nous, écrivez-nous, ou passez nous voir. Consultation gratuite et sans engagement.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT BLOCKS -->
+  <section style="padding: 5rem 0 0;">
+    <div class="container">
+      <div class="contact-blocks">
+        <a href="tel:+32477273118" class="contact-card fade-up">
+          <span class="cc-label">Alberto</span>
+          <span class="cc-num">+32 477 27 31 18</span>
+          <span class="cc-action">Appeler →</span>
+        </a>
+        <a href="tel:+32493972517" class="contact-card fade-up">
+          <span class="cc-label">Matteo</span>
+          <span class="cc-num">+32 493 97 25 17</span>
+          <span class="cc-action">Appeler →</span>
+        </a>
+        <a href="mailto:Info@chaudrel.be" class="contact-card fade-up">
+          <span class="cc-label">Email</span>
+          <span class="cc-num">Info@chaudrel.be</span>
+          <span class="cc-action">Écrire →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULAIRE -->
+  <section class="contact-section" id="contact" style="padding: 4rem 0 6rem;">
+    <div class="container contact-grid">
+      <div class="contact-left fade-up">
+        <span class="eyebrow">Formulaire</span>
+        <h2>Décrivez-nous votre projet</h2>
+        <p>Plus vous nous donnez de détails, plus nous pourrons vous répondre avec précision. Nous vous recontactons sous 24h ouvrées.</p>
+        <ul class="contact-list">
+          <li>Consultation gratuite à votre domicile</li>
+          <li>Devis détaillé sous 7 à 10 jours</li>
+          <li>Sans engagement de votre part</li>
+          <li>Confidentialité garantie</li>
+        </ul>
+      </div>
+
+      <form class="contact-form fade-up" id="contactForm" novalidate>
+        <div class="row-2">
+          <label>
+            <span>Prénom *</span>
+            <input type="text" name="prenom" required placeholder="Votre prénom" />
+          </label>
+          <label>
+            <span>Nom *</span>
+            <input type="text" name="nom" required placeholder="Votre nom" />
+          </label>
+        </div>
+        <label>
+          <span>Email *</span>
+          <input type="email" name="email" required placeholder="votre@email.com" />
+        </label>
+        <label>
+          <span>Téléphone</span>
+          <input type="tel" name="tel" placeholder="+32 ..." />
+        </label>
+        <label>
+          <span>Type de projet *</span>
+          <select name="projet" required>
+            <option value="">Sélectionnez</option>
+            <option value="cuisine">Cuisine</option>
+            <option value="sdb">Salle de bain</option>
+            <option value="exterieur">Jardin &amp; Extérieur</option>
+            <option value="toiture">Toiture</option>
+            <option value="piscine">Piscine</option>
+            <option value="renovation">Rénovation complète</option>
+            <option value="autre">Autre</option>
+          </select>
+        </label>
+        <label>
+          <span>Votre vision</span>
+          <textarea name="message" rows="5" placeholder="Décrivez votre vision..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-gold btn-submit">Envoyer ma demande →</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        <p class="form-privacy">En soumettant ce formulaire, vous acceptez d'être recontacté(e) par Chaudrel. Vos données ne sont pas transmises à des tiers.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- MAP / ADRESSE -->
+  <section style="background: var(--color-bg-alt); padding: 4rem 0;">
+    <div class="container">
+      <div class="address-block fade-up">
+        <h3>Notre showroom</h3>
+        <p>Sur rendez-vous uniquement — visite privée de nos matériaux et de nos projets en cours.</p>
+        <p><strong>Adresse :</strong> Bruxelles, Belgique</p>
+        <p><strong>Horaires :</strong> Lun-Ven 9h-18h · Sam sur RDV</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-strip">
+    <div class="container cta-inner">
+      <div class="fade-up">
+        <h2>Une idée, une date, un budget ?</h2>
+        <p>Premier échange téléphonique de 15 minutes, sans engagement.</p>
+      </div>
+      <div class="fade-up">
+        <a href="tel:+32477273118" class="btn btn-gold">Appeler maintenant</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="foot-brand">
+        <span class="brand-name">CHAUDREL</span>
+        <p>Rénovation haut de gamme pour demeures d'exception. Brussels &amp; Brabant.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <a href="services.html">Cuisine</a>
+        <a href="services.html">Salle de bain</a>
+        <a href="services.html">Jardin &amp; Extérieur</a>
+        <a href="services.html">Toiture</a>
+        <a href="services.html">Piscine</a>
+        <a href="services.html">Rénovation complète</a>
+      </div>
+      <div class="foot-col">
+        <h4>La maison</h4>
+        <a href="histoire.html">Notre histoire</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="avis.html">Avis clients</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:Info@chaudrel.be">Info@chaudrel.be</a>
+        <a href="tel:+32477273118">Alberto — +32 477 27 31 18</a>
+        <a href="tel:+32493972517">Matteo — +32 493 97 25 17</a>
+      </div>
+    </div>
+    <div class="container foot-bottom">
+      <p>© <span id="year"></span> Chaudrel Prestige Rénovation — Tous droits réservés.</p>
+      <div class="foot-legal">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
